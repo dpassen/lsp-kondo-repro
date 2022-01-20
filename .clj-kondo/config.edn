@@ -1,0 +1,5 @@
+{:linters
+ {:unresolved-symbol
+  {:exclude
+   [(testit.core/fact [=> =in=>])
+    (testit.core/facts [=>])]}}}
