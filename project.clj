@@ -6,9 +6,7 @@
   :profiles
   {:dev
    {:dependencies
-    [[org.clojure/test.check     "1.1.1"]
-     [com.gfredericks/test.chuck "0.2.13"]
-     [metosin/testit             "0.4.1"]]}
+    [[com.gfredericks/test.chuck "0.2.13"]]}
    :uberjar
    {:aot :all}}
   :main lsp-kondo-repro.core)
